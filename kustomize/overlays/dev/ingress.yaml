@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: public-nginx
   rules:
-  - host: sk159-myfirst-ingress.class-5.skala-pg.com
+  - host: sk159-myfirst-ingress.class-5.skala-ai.com
     http:
       paths:
       - backend:
@@ -22,5 +22,5 @@ spec:
         pathType: Prefix
   tls:
   - hosts:
-    - 'sk159-myfirst-ingress.class-5.skala-pg.com'
-    secretName: wildcard-class-5-skala-pg-com-tls
+    - 'sk159-myfirst-ingress.class-5.skala-ai.com'
+    secretName: wildcard-class-5-skala-ai-com-tls
